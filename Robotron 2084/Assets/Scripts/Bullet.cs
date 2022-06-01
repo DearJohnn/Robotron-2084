@@ -20,7 +20,14 @@ public class Bullet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Instantiate(explosionPrefab,transform.position, Quaternion.identity);
-        Destroy(gameObject);
+        //Instantiate(explosionPrefab,transform.position, Quaternion.identity);
+        //Destroy(gameObject);
+        GameObject exp = ObjectPool.Instance.GetObject(explosionPrefab);
+        exp.transform.position = transform.position;
+        ObjectPool.Instance.PushObject(gameObject);
+        if(other.gameObject.tag == "Hittable")
+        {
+            Destroy(other.gameObject);
+        }
     }
 }

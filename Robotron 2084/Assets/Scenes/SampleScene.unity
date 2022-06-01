@@ -459,6 +459,23 @@ MonoBehaviour:
   Player: {fileID: 797194164}
   dampTime: 0.4
   mapBounds: {fileID: 1926038947}
+--- !u!1 &544029197 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1909676559540373241, guid: ff4dff2ff89e6354d8ade982670b818a, type: 3}
+  m_PrefabInstance: {fileID: 995303944}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &544029207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 544029197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e0a2db1ff44dde44a6f43c3d731ffb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &599343886
 GameObject:
   m_ObjectHideFlags: 0
@@ -1186,6 +1203,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 9162525080130612815, guid: 5ea30c838d24e94428cfdc063ff7c7bc, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ea30c838d24e94428cfdc063ff7c7bc, type: 3}
 --- !u!1001 &1364948062
@@ -1790,6 +1811,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1853130004}
+  - component: {fileID: 1853130007}
   - component: {fileID: 1853130005}
   - component: {fileID: 1853130006}
   m_Layer: 0
@@ -1888,6 +1910,23 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1853130007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1853130003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa41dd34ca6ed664e9c08e1a2d0bccf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interval: 1
+  bulletPrefab: {fileID: 2030041564164532351, guid: fbb8a06e149aca545beed372c89056d0, type: 3}
+  shellPrefab: {fileID: 2449417812328584530, guid: 93cfd0468e4083146b0c05f45726cedd, type: 3}
+  bulletNum: 3
+  bulletAngle: 15
 --- !u!1 &1926038946
 GameObject:
   m_ObjectHideFlags: 0

@@ -14,10 +14,17 @@ public class BulletShell : MonoBehaviour
     {
         rigidbody = GetComponent<Rigidbody2D>();
         sprite = GetComponent<SpriteRenderer>();
-        rigidbody.velocity = Vector3.up * speed;
+        
+    }
+    private void OnEnable()
+    {
+        float angle = Random.Range(-30f, 30f);
+        rigidbody.velocity = Quaternion.AngleAxis(angle,Vector3.forward)*Vector3.up * speed;
+
+        sprite.color = new Color(sprite.color.r,sprite.color.g,sprite.color.b,1);
+        rigidbody.gravityScale = 3;
         StartCoroutine(Stop());
     }
-
     // Update is called once per frame
     IEnumerator Stop()
     {
@@ -30,6 +37,7 @@ public class BulletShell : MonoBehaviour
             sprite.color = new Color(sprite.color.r, sprite.color.g, sprite.color.g,sprite.color.a - fadeSpeed);
             yield return new WaitForFixedUpdate();
         }
-        Destroy(gameObject);
+        //Destroy(gameObject);
+        ObjectPool.Instance.PushObject(gameObject);
     }
 }
