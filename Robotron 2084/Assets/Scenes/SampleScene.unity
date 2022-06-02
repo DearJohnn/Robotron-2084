@@ -144,7 +144,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2055539240, guid: ff4dff2ff89e6354d8ade982670b818a, type: 3}
       propertyPath: m_Mass
-      value: 100
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2055539242, guid: ff4dff2ff89e6354d8ade982670b818a, type: 3}
       propertyPath: maxSpeed
@@ -291,7 +291,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2055539240, guid: ff4dff2ff89e6354d8ade982670b818a, type: 3}
       propertyPath: m_Mass
-      value: 100
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2055539242, guid: ff4dff2ff89e6354d8ade982670b818a, type: 3}
       propertyPath: maxSpeed
@@ -555,7 +555,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2055539240, guid: ff4dff2ff89e6354d8ade982670b818a, type: 3}
       propertyPath: m_Mass
-      value: 100
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2055539242, guid: ff4dff2ff89e6354d8ade982670b818a, type: 3}
       propertyPath: maxSpeed
@@ -666,6 +666,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -752947665937449167, guid: ff4dff2ff89e6354d8ade982670b818a, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 2935351991255464596, guid: 5ea30c838d24e94428cfdc063ff7c7bc, type: 3}
+    - target: {fileID: -752947665937449167, guid: ff4dff2ff89e6354d8ade982670b818a, type: 3}
+      propertyPath: muzzlePos
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: -752947665937449167, guid: ff4dff2ff89e6354d8ade982670b818a, type: 3}
+      propertyPath: bulletPrefab
+      value: 
+      objectReference: {fileID: 6849451830476233253, guid: d7d9cfdd32b77c9418651d1d0cc66ca9, type: 3}
     - target: {fileID: 719477877, guid: ff4dff2ff89e6354d8ade982670b818a, type: 3}
       propertyPath: data.dataString
       value: UEsDBBQAAAgIAACYn+tHVuNOSgIAAPEEAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQF1VEtz2jAQ/iuMzk0HCC3QW2sI6YHAhHRy8UVIa6xBljx6hEeG/96VbGNDpyeW/b7d/fYhfxKhbAnMabMwgi81B/KjR4JNvvRa8BmOdKfVRpyh4bwL7vJAopHzSp3Q6B+EMKsLcEawn2onA7mPTq9Epk0x5ztItHUW3RmVFhAy2oVoha7PHjniz8M0hJzQGo6DdUZr2u9d0GSgHJiW2hAbWsXyiklalMCD5JY8fKzZg4qmsJmaEYQzLaWwtRLiTmXsNKGl9dgHErig2FksH/g5iF3uQt5u8CrLLLhakqGnmTA4oCor+aWrqRXU7itdH1T6UGcSFVUpl/+gD4MIZ0YXz03VQT9UcLlg+1d6YtS6zlC77tmtbK8OVO7pVsJ7DupFL4z2iiPojA+h3sJw1v69NpbkwPatv5J65/Tl/1cTerjE3o+JFMU2QF9HlWMjdZx2XDwY3MtvFBzPwtYp0BtU/LHwRnfd+6mBJ2GsQ6juUgV5W+1NoJJ5nFnoxrtEGwXRXYsuQVHpTmtM4+4XeId1yt4hTzS8lLp4jTUP4C4kult+v38HrfXhuiyb68MSbL7yTgoFregAvOCcEq1UdV/dmTRhG28yyjphOy/47WkR2D6Ovk34YDQdw/fhaPQwnkxhyIdswDjv8xEl8faEwj6pXFdC6/Hg1rozUXhozRektzC0jMfODT0sxLnQnZkLlekNMwBqdZvCgsEq+Cj5nAuc0AacEyounHymRGq2B55eE6Wx1fnRGZq2WVJSig/tgiclSfxkpORCLn8BUEsDBBQAAAgIAACYn+sNxFPcbQAAAHgAAAAJACQAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0Bq1YqSy0qzszPU7JSMNEz0jM01VFQSi9KLMgoBooYgjilmSkgdrRSapKxialFiqGJpXmqmZGJia65hWWqUYpRsmFySopBikmiUixQfUllQapfYm4qRE9AYklGWmZeSmZeup57UWaKO8hopdhaAFBLAQItABQAAAgIAACYn+tHVuNOSgIAAPEEAAALACQAAAAAAAAAAAAAAAAAAABncmFwaDAuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAACYn+sNxFPcbQAAAHgAAAAJACQAAAAAAAAAAAAAAJcCAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAIAAgC4AAAATwMAAAAA
@@ -684,7 +696,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2055539240, guid: ff4dff2ff89e6354d8ade982670b818a, type: 3}
       propertyPath: m_Mass
-      value: 100
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2055539240, guid: ff4dff2ff89e6354d8ade982670b818a, type: 3}
+      propertyPath: m_BodyType
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2055539242, guid: ff4dff2ff89e6354d8ade982670b818a, type: 3}
       propertyPath: maxSpeed
@@ -773,7 +789,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2055539240, guid: ff4dff2ff89e6354d8ade982670b818a, type: 3}
       propertyPath: m_Mass
-      value: 100
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2055539242, guid: ff4dff2ff89e6354d8ade982670b818a, type: 3}
       propertyPath: maxSpeed
@@ -862,7 +878,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2055539240, guid: ff4dff2ff89e6354d8ade982670b818a, type: 3}
       propertyPath: m_Mass
-      value: 100
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2055539242, guid: ff4dff2ff89e6354d8ade982670b818a, type: 3}
       propertyPath: maxSpeed
@@ -1040,7 +1056,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2055539240, guid: ff4dff2ff89e6354d8ade982670b818a, type: 3}
       propertyPath: m_Mass
-      value: 100
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2055539242, guid: ff4dff2ff89e6354d8ade982670b818a, type: 3}
       propertyPath: maxSpeed
@@ -1181,7 +1197,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7380525537379020535, guid: 5ea30c838d24e94428cfdc063ff7c7bc, type: 3}
       propertyPath: guns.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7380525537379020535, guid: 5ea30c838d24e94428cfdc063ff7c7bc, type: 3}
       propertyPath: guns.Array.data[0]
@@ -1194,7 +1210,7 @@ PrefabInstance:
     - target: {fileID: 7380525537379020535, guid: 5ea30c838d24e94428cfdc063ff7c7bc, type: 3}
       propertyPath: guns.Array.data[2]
       value: 
-      objectReference: {fileID: 1605059186}
+      objectReference: {fileID: 0}
     - target: {fileID: 9162525080130612815, guid: 5ea30c838d24e94428cfdc063ff7c7bc, type: 3}
       propertyPath: m_Name
       value: Jedi
@@ -1230,7 +1246,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2055539240, guid: ff4dff2ff89e6354d8ade982670b818a, type: 3}
       propertyPath: m_Mass
-      value: 100
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2055539242, guid: ff4dff2ff89e6354d8ade982670b818a, type: 3}
       propertyPath: maxSpeed
@@ -1319,7 +1335,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2055539240, guid: ff4dff2ff89e6354d8ade982670b818a, type: 3}
       propertyPath: m_Mass
-      value: 100
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2055539242, guid: ff4dff2ff89e6354d8ade982670b818a, type: 3}
       propertyPath: maxSpeed
@@ -1734,7 +1750,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2055539240, guid: ff4dff2ff89e6354d8ade982670b818a, type: 3}
       propertyPath: m_Mass
-      value: 100
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2055539242, guid: ff4dff2ff89e6354d8ade982670b818a, type: 3}
       propertyPath: maxSpeed
